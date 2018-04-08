@@ -12,3 +12,8 @@ i.icon
 {
     margin-top:8em;
 }
+
+#delete
+{
+    display:inline;
+}
