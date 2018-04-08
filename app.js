@@ -48,7 +48,7 @@ app.get('/blogs',function(req,res){
         {
             res.render("index",{blogs:blogs});
         }
-    })
+    }).sort({"created":-1})
 });
 
 //New Route
